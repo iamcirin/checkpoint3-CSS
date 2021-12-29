@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    width: 20%;
+    background: rgba(128, 128, 128, 0.411);
+    height: 100%;
+    position: fixed;
+    
+}
+nav{width: 20%;}
+
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 8px 17px;
+    font-size: 30px;
+    color: black;
+    
+    
+}
+
+main{
+    display: flex;
+    /* border: 1px solid black; */
+    height: 100vh;
+    
+}
+
+li a:hover{
+    color: white;
+    background: black;
+}
+
+section{
+    width: 80%;
+    height: 100%;
+    
+}
+
+.container h1{
+    text-align: center;
+    color: rgb(17, 16, 16);
+}
+
+img{
+    width:400px ;
+    margin-top: 200px;
+}
+
+input {
+    width: 50%;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 6px;
+    margin-bottom: 16px ;
+    background: transparent;
+    font-size: 20px;
+    
+}
+
+form{
+    margin-top: 100px;
+    margin-left: 20%;
+}
+
+button{
+    display: block;
+    padding: 10px 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background: transparent;
+    font-size: 15px;
+    box-shadow: 2px 0.5px 6px rgba(0, 0, 0, 0.486);
+}
+.container h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+    color: tomato;
+    text-align: center;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+
+body{
+    background-image: url('./images/tel\ \(1\).jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+
+

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+header{
+    height: 10%;
+    width: 100%;
+    box-shadow: 0.3px 0.2px 6px;
+    display: flex;
+    justify-content: space-around;
+    min-width: 800px;
+}
+
+.line{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-top: 3px solid rgb(255, 255, 255);
+    border-left: 3px solid rgb(255, 255, 255);
+    width: 400px;
+    height: 50px;
+    border-radius: 3px;
+
+}
+
+
+li a{
+    text-decoration: none;
+    color: tomato;
+    font-size: 20px;
+}
+li{
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul{
+    margin-top: 22px;
+}
+
+main{
+    background: rgb(248, 235, 48);
+    width: 100vw;
+    height: 90%;
+    position: relative;
+    
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+section{
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    
+}
+.text{
+    margin-left: 30px;
+}
+
+.title{
+    font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+i {
+    font-size: 25px;
+    margin: 20px;
+    
+}
+
+.fa-facebook{
+    color: blue;
+}
+
+
+.fa-twitter{
+    color: rgb(99, 160, 252);
+}
+
+.fa-instagram{
+    color: rgb(247, 108, 53);
+}
+.fa-youtube{
+    color: red;
+}
+
+footer{
+    position: absolute;
+    bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
